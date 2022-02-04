@@ -6,12 +6,12 @@
     "npm": "7.10.0"
   },
   "description": "",
-  "main": "serevr.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "heroku-prebuild": "npm i -f",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    "heroku-prebuild": "npm i",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix interview-test && npm run build --prefix interview-test"
   },
   "author": "",
   "license": "ISC",
