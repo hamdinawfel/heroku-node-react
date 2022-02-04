@@ -2,7 +2,7 @@
   "name": "tales",
   "version": "1.0.0",
   "engines": {
-    "node": "10.16.0",
+    "node": "16.13.1",
     "npm": "7.10.0"
   },
   "description": "",
